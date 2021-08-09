@@ -1,0 +1,92 @@
+:root{
+    --vermelho:#E50914;
+    --preto:#141414;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.imagem-fundo{
+    background: linear-gradient(rgba(0,0,0,.40),rgba(0,0,0,.10)100%), url(IMG/the-witcher.jpg);
+    height:800px;
+    background-size: cover;
+}
+body{
+    font-family: Arial, Times;
+    background-color: var(--preto);
+}
+.container{
+    color: #FFF;
+    margin-left: 30px;
+}
+.header{
+     display: flex;
+     align-items: center;
+     justify-content:start;
+     background: linear-gradient(rgba(0,0,0.20),rgba(0,0,0,.0));
+     padding: 10px 0 10px 0px;
+}
+.netflix-logo{
+    max-height: 7%;
+    max-width: 7%;
+    margin-left: 0.8%;
+    margin-right: 2.5%;
+}
+.container nav a{
+    text-decoration: none;
+    color: #FFF;
+    margin-right: 13px;
+    font-size: 14px;
+}
+.header nav :hover{
+    color: gray;
+}
+.logo-jogo{
+    max-width: 300px;
+    max-height: 200px;
+}
+.container:nth-child(1){
+    display: flex;
+    flex-direction: column;
+    
+}
+.sinopse{
+margin-top: 15%;
+max-width: 80%;
+}
+.botao{
+    border:none;
+    background-color: rgba(0,0,0,.50);
+    color: white;
+    padding: 15px 30px;
+    border-radius: 4px;
+    margin-top: 3%;
+    margin-right: 1%;
+    font-size: 13px;
+    transition: .3s ease all;
+    cursor: pointer;
+}
+.botao:hover{
+    background-color: lightgray;
+    color: black;
+}
+.botoes i{
+    margin-right: 8px;
+}
+.lista-jogos{
+    font-family: Arial, Helvetica, sans-serif;
+    color: White;
+    margin-top: 0.2%;
+    margin-bottom: 10%;
+}
+.marcadores-lista{
+    font-size: 21px;
+    margin-bottom: 0.2%;
+}
+.img{
+    border-radius: 2.5%;
+    width: 480px;
+    height: 410px;
+}
+    
